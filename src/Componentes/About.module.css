@@ -1,0 +1,21 @@
+.img{
+    width: 1250px;
+    height: 670px;
+    display: flex;
+    margin-left: 155px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px rgb(20, 20, 20);
+    position: relative;
+}
+
+.imagebutton {
+    width: 200px;
+    position: absolute;
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+    left: 220px;
+    top: 710px;
+  }
+      

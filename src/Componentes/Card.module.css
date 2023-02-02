@@ -1,0 +1,59 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: rgb(227, 250, 234);
+    padding: 20px;
+ border-radius: 30px;
+ box-shadow: 2px 2px 5px rgb(64, 64, 64);
+}
+
+
+
+.container:hover{
+    background-color: rgb(30, 29, 31);
+}
+
+.otherH2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.boton{
+    width: 5vh;
+    height: 5vh;
+    cursor: pointer; 
+    border-radius: 10px;
+    border:0;
+    background-color: rgb(32, 190, 111);
+    color:whitesmoke;
+    margin-left: 250px;
+    
+}
+.foto{
+    border-radius: 25px;
+}
+ .name{
+    background-color: rgb(85, 208, 8);
+    padding: 5px;
+    border-radius: 8px;
+    color: rgb(86, 81, 81);
+    
+ }
+
+ .especie{
+    background-color: rgb(220, 151, 2);
+    padding: 5px;
+    border-radius: 8px;
+    color: aliceblue;
+    
+ }
+
+ .genero{
+    color:rgb(6, 152, 38)
+ }
+

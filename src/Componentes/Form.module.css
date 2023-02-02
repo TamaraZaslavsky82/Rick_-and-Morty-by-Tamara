@@ -1,0 +1,60 @@
+.form{
+   width: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(146, 230, 11);
+    margin-left: 600px;
+    margin-top: 0;
+    padding: 95px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgb(64, 64, 64);
+}
+
+
+.user{
+    
+   font-size: 20px;
+   text-align: center;
+   font-family: monospace;
+   color: rgb(49, 48, 48);
+   margin-top: 10px;
+   
+   
+   
+}
+
+.inputName{
+    border: 0;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.silueta{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.button1{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(36, 35, 35);
+    color: whitesmoke;
+}
+
+
+  
