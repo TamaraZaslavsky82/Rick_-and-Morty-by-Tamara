@@ -5,9 +5,11 @@ import { useState, useEffect } from 'react'
 import characters from './data.js'
 import Nav from './Componentes/Nav.jsx'
 import About from './Componentes/About'
-import { Route, Routes, useLocation, useNavigate } from 'react-router-dom'
+import { Route, Routes, useLocation, useNavigate,  } from 'react-router-dom'
 import Detail from './Componentes/Detail'
 import Form from './Componentes/Form'
+import Errores from './Componentes/Errores'
+import { Favorites } from './Componentes/Favorites'
 
 
 
@@ -20,13 +22,16 @@ function App () {
   const [characters, setCharacters]=useState([])
   const navigate = useNavigate()
   const [access, setAccess] = useState(false)
-    
+  
   const username = 'tamara@gmail.com'
   const password = 'password123'
 
+  
+  
+  
   useEffect(() => {
     !access && navigate('/');
- }, [access]);
+ }, [access, navigate]);
 
   function login(userData){
 if(userData.username === username && userData.password === password){
@@ -35,10 +40,6 @@ if(userData.username === username && userData.password === password){
 }
   }
 
-  function logout() {
-    setAccess(false);
-    navigate('/');
-  }
 
 
   function onSearch(character) {
@@ -64,13 +65,17 @@ setCharacters(characters.filter(character => character.id !== id))
         
       </div>
       <Routes>
-        <Route path='/home' element={<Cards
+      
+        <Route  exact path='/home' element={<Cards
           characters={characters} 
           onClose={onClose}
           />}/>
-          <Route  extric path='/' element={<Form login={login}/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/detail/:detailId' element={<Detail/>}/>
+          <Route  exact path='/' element={<Form login={login}/>}/>
+          <Route exact path='/about' element={<About/>}/>
+          <Route exact path='/detail/:detailId' element={<Detail/>}/>
+          <Route path='/*' element={<Errores/>}/>
+         <Route path='/favorites' element={<Favorites/>}/>
+        
       </Routes> 
     </div>
           

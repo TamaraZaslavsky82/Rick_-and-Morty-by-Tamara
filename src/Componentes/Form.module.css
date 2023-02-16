@@ -1,13 +1,14 @@
 .form{
-   width: 150px;
+   width: 30%;
     display: flex;
     justify-content: center;
     background-color: rgb(146, 230, 11);
-    margin-left: 600px;
     margin-top: 0;
-    padding: 95px;
     border-radius: 25px;
     box-shadow: 2px 2px 5px rgb(64, 64, 64);
+    margin-left: 400px;
+    
+    
 }
 
 
@@ -31,13 +32,27 @@
     margin-bottom: 10px;
 }
 
-.silueta{
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    margin-left: 60px;
+.silueta
+
+{
+    width: 50%;
+    margin: -45px;
+    margin-left: 95px;
+    margin-top: 30px;
     margin-bottom: 50px;
-}
+    animation: flipcard 5s ease-in-out infinite;
+    transform-style: preserve-3d;
+    }
+    
+    @keyframes flipcard {
+    50% {
+    transform: rotateY8(10deg);
+    }
+    100% {
+    transform: rotateY(180deg);
+    }
+    }
+
 
 .button{
     display: flex;

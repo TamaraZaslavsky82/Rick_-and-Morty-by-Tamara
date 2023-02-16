@@ -2,13 +2,15 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: fit-content ;
     height: fit-content;
-    margin: 0 auto;
-    background-color: rgb(227, 250, 234);
+    margin:  auto;
+   
     padding: 20px;
  border-radius: 30px;
- box-shadow: 2px 2px 5px rgb(64, 64, 64);
+ box-shadow:5px 5px 30px rgb(64, 64, 64);
+ margin-top:1px;
+
 }
 
 
@@ -31,29 +33,53 @@
     border:0;
     background-color: rgb(32, 190, 111);
     color:whitesmoke;
-    margin-left: 250px;
+    margin-left: 280px;
+    box-shadow:2px 2px 10px rgb(64, 64, 64);
     
 }
 .foto{
     border-radius: 25px;
+    box-shadow: 2px 2px 10px rgb(64, 64, 64);
+    background: linear-gradient(to right, #ccf805,#66CC00);
+    padding: 10px;
 }
+
+.especie{
+    background-color: rgb(220, 151, 2);
+    padding: 5px;
+    border-radius: 8px;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px rgb(64, 64, 64);
+    
+ }
+
+ .genero{
+    color:rgb(6, 152, 38);
+    background-color: rgb(227, 250, 234);
+    box-shadow: 2px 2px 5px rgb(64, 64, 64);
+    border-radius: 8px;
+    padding: 5px;
+ }
+ 
  .name{
     background-color: rgb(85, 208, 8);
     padding: 5px;
     border-radius: 8px;
     color: rgb(86, 81, 81);
-    
+    box-shadow: 2px 2px 5px rgb(64, 64, 64);
+    list-style-type: none;
+    border-bottom: 1px solid transparent;
  }
 
- .especie{
-    background-color: rgb(220, 151, 2);
+.favorite1{
+   
+    cursor: pointer; 
+    margin-bottom: -30px;
+}
+
+.botonf{
+    border:none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(64, 64, 64);
     padding: 5px;
-    border-radius: 8px;
-    color: aliceblue;
-    
- }
-
- .genero{
-    color:rgb(6, 152, 38)
- }
-
+}

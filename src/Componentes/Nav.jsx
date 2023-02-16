@@ -34,6 +34,13 @@ const Nav = ({onSearch}) =>{
           <button className= {style.logout}> Logout</button>
           </Link>
         </div>
+        <div>
+        <ul>
+          <Link to={'/favorites'} className={style.home}>
+          <li className={style.homeLi2}>Favorites</li>
+          </Link>
+        </ul>
+      </div>
       </div>
       
       </div>

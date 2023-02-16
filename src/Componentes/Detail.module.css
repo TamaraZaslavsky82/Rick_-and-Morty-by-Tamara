@@ -9,7 +9,7 @@
     margin-left: 500px;
     position: absolute;
     z-index: 9000; /* un número alto */
-    margin-top: 200px;
+    margin-top: 140px;
     top: 0;
     left: 1;
  width: 400px;
@@ -24,11 +24,11 @@
    justify-content: center;
     width: 300px;
     background-color: rgb(183, 238, 56);
-    border-radius: 20px;
+    border-radius: 10px;
     margin-left: 25px;
-    margin-top: 130px;
+    margin-top: 100px;
     font-family:monospace;
-    font-size: 15px;
+    font-size: 12px;
     box-shadow: 2px 2px 5px rgb(64, 64, 64);
 }
 
@@ -37,7 +37,7 @@
     justify-content: center;
      width: 300px;
      background-color: rgb(62, 238, 56);
-     border-radius: 20px;
+     border-radius: 10px;
      margin-left: 25px;
      margin-top: 10px;
      font-family:monospace;
@@ -52,9 +52,9 @@
 
 .back{
     background-color: rgb(231, 199, 19);
-    padding: 15px;
-    margin: 30px;
-    margin-top: 30px;
+    padding: 12px;
+    margin: 20px;
+    margin-top: 10px;
     margin-left: 40px;
     border: 0;
     box-shadow: 2px 2px 5px rgb(64, 64, 64);

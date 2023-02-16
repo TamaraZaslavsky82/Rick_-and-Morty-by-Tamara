@@ -4,49 +4,51 @@
     gap: 10px;
     width: 100%;
     border-radius: 10px;
+}
     
     
   
     
    
-}
 
 .nav{
    display: flex;
     margin-left: 42%;
     margin: 10px;
+}
     
 
-}
  
 .aboutLi{
     list-style-type: none;
-    
     width: 90px;
     display: flex;
     justify-content: center;
     font-family: monospace;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 5px;
     color: rgb(26, 25, 25);
     margin-left: -140px;
+    margin-top: 20px;
     
 }
+    
 .aboutLi:hover{
     border: 1px solid black
 }
 .homeLi{
     list-style-type: none;
-    
     width: 90px;
     display: flex;
     justify-content: center;
     font-family: monospace;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 5px;
     color: rgb(31, 30, 30);
     margin-left: -200px;
+    margin-top: 20px;
 }
+    
 .homeLi:hover{
     border: 1px solid black
 }
@@ -57,38 +59,84 @@
 }
 
 .home:hover{
-  
     cursor: pointer;
 }
+
+.favorite{
+    list-style-type: none;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgb(31, 30, 30);
+    margin-left: -10px;
+    margin-top: -40px;
+    margin-bottom: 0;
+
+}
+
+.favorite:hover{
+    border: 1px solid black
+}
+  
 
 .Rm{
     width: 55px;
-    margin-top: 5px;
     margin: -45px;
     margin-left: -260px;
-}
+    animation: flipcard 5s ease-in-out infinite;
+    transform-style: preserve-3d;
+    }
+    
+    @keyframes flipcard {
+    0% {
+    transform: rotateY8(10deg);
+    }
+    100% {
+    transform: rotateY(180deg);
+    }
+    }
+
 .containerButton {
     position: absolute;
-    top: 30px;
-    left: 1500px;
-    right: 0;
-    bottom: 0;
-   
-   
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .logout {
-    background-color: rgb(227, 243, 5);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: monospace;
-  }
+    top: 38px;
+    right: 60px;
+    display: inline-block;
+}
 
-  .logout:hover{
-    background-color: rgb(37, 37, 37);
+.logout{
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ccf805;
+    font-family: monospace;
+}
+
+.logout:hover{
+    background-color: rgb(43, 42, 42);
     color: #ccf805;
-  }
+}
+
+.homeLi2{
+    list-style-type: none;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgb(31, 30, 30);
+    margin-left: -20px;
+    margin-top: -40px;
+    
+}
+ .homeLi2:hover{
+    cursor: pointer;
+    border: 1px solid black;
+ }
+  
+   
+   
+ 

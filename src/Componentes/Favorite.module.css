@@ -1,0 +1,72 @@
+.name{
+    background-color: rgb(85, 208, 8);
+    padding: 5px;
+    border-radius: 8px;
+    color: rgb(86, 81, 81);
+    box-shadow: 2px 2px 5px rgb(64, 64, 64);
+}
+.foto{
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgb(64, 64, 64);
+}
+
+.especie{
+    background-color: rgb(220, 151, 2);
+    padding: 5px;
+    border-radius: 8px;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px rgb(64, 64, 64);
+    
+ }
+
+ .genero{
+    color:rgb(6, 152, 38);
+    background-color: rgb(227, 250, 234);
+    box-shadow: 2px 2px 5px rgb(64, 64, 64);
+    border-radius: 8px;
+    padding: 5px;
+ }
+
+ .container {
+    display: flex; 
+    gap: 10px;
+    Flex-wrap :wrap;
+   
+    
+ 
+} 
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content ;
+    height: fit-content;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    
+    margin-top: 20px;
+    
+  
+    
+    
+    
+    
+}
+.selector{
+    display: flex;
+   justify-content: center;
+  
+   
+    margin:  10px;
+    background-color: rgb(227, 250, 234);
+    padding: 10px;
+ border-radius: 10px;
+ box-shadow: 2px 2px 5px rgb(64, 64, 64);
+ Flex-wrap :wrap;
+ margin-left:-8px;
+ margin-top:-18px;
+ border:0;
+}
